@@ -9,7 +9,7 @@
 3. ...
 
 ## Errors detail
-'''
+```
 QSslSocket: cannot resolve CRYPTO_num_locks
 QSslSocket: cannot resolve CRYPTO_set_id_callback
 QSslSocket: cannot resolve CRYPTO_set_locking_callback
@@ -41,14 +41,14 @@ QSslSocket: cannot call unresolved function CRYPTO_set_locking_callback
 QSslSocket: cannot call unresolved function SSL_library_init
 QSslSocket: cannot call unresolved function SSLv23_client_method
 QSslSocket: cannot call unresolved function sk_num
-'''
+```
 
 
 ## Resove Method
 
-'''
+```
 apt install openssl libssl-dev libssl1.0.2 libssl1.0-dev
-'''
+```
 
 ## Key
 
